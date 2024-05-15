@@ -27,3 +27,41 @@ console.log(typeof valueInNumber);}
 {let somenumber = 33
 let stringnumber = String(somenumber)
 console.log( typeof stringnumber)}
+
+
+{let value = 3
+ let Negvalue = -value
+ console.log(Negvalue);}
+
+
+{let str1 = "Hello"
+let str2 = "Devendra"
+let str3 = str1 + str2
+console.log(str3);}
+
+{
+console.log("1" + 2);
+//output=>12
+console.log(1 + "2");
+//output=>12
+console.log("1" +"2");
+//output=>12
+console.log(1+2+"3");
+//output=>33
+console.log((3+4)* 2 % 3);
+
+console.log(+true)
+//output=> 1
+console.log(true+)
+//output=>error
+console.log(+"")
+//output=> 0
+}
+// prefix and postfix increment operator
+{
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+}
+
+// Visit to MDN website for more info
