@@ -38,3 +38,35 @@ const myFuncion = function(){
 
 
 // Javascript is Dynamically Typed Language because in dynamically typed languages, the type is associated with run-time values, not named variables or fields.
+
+
+
+// types of memory in Js 
+//================================
+//Stack Memory(Primitive)
+//Heap Memory (Non-Primitive) 
+
+{let myname ="Devendra" // Example of stack memory //  get the copy of data //
+let anothername = myname
+anothername ="Sushant"
+console.log(myname)
+console.log(anothername);}
+//Output => Devendra
+        //Sushant
+
+
+//Example of heap memory// Get the main or reference of the data direclty not copy of the data
+
+
+let userone ={
+    email:"devendra12@gmail.com",
+    username:"Devendra",
+    Address:"Kathamandu"
+}
+let usertwo = userone
+usertwo.email="devendra00@gmail.com",
+usertwo.username ="Sushant",
+console.log(userone.email)
+console.log(usertwo.email)
+    // Output => devendra00@gmail.com
+                //devendra00@gmail.com
