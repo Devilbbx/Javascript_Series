@@ -18,10 +18,14 @@ const myarr = [0,1,2,3,4,5]
 
 //======================================= slice , splice ==========================================
 console.log("A",myarr);
-let mynewarr1 = myarr.slice(1,3)
+const mynewarr1 = myarr.slice(1,3)
 
 console.log(mynewarr1);
+
 const mynewarr2 = myarr.splice(1,3)
 console.log(mynewarr2);
+
+
+
 
 
